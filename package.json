@@ -6,6 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cooperrichard177/cucumber-js-practice.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
