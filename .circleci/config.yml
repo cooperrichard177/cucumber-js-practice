@@ -26,7 +26,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
 
       - run: npm install
-      - run: npm install cucumber
+      # - run: npm install cucumber
 
       - save_cache:
           paths:
