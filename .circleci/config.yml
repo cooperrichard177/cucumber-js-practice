@@ -36,7 +36,7 @@ jobs:
       # run tests!
       - run:
           name: run tests
-          command: npm test
+          command: "./node_modules/.bin/cucumber-js ./features/ -f json:./report/cucumber_report.json"
 
       - run:
           name: Save test results
