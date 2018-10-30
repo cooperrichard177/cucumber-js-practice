@@ -7,7 +7,7 @@ Given(/^I am on the Benefex home page$/, async function() {
 });
 
 When(/^I click the benefits link on the navigation bar$/, async function() {
-  let page = await new HomePage(this.browser);
+  let page = await new HomePage(this.browser, this.driver);
   await page.openNavigationBar();
   await page.clickBenefitsNavigationLink();
 });
