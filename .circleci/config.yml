@@ -36,13 +36,13 @@ jobs:
       # run tests!
       - run:
           name: run tests
-          command: "./node_modules/.bin/cucumber-js"
+          command: npm test
 
       - run:
           name: Save test results
           command: node index.js
           when: always
       # - store_test_results:
-      #   path: ~/cucumber
+      #     path: ~/cucumber
       # - store_artifacts:
       #   path: ~/cucumber
