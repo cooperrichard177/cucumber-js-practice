@@ -37,6 +37,10 @@ jobs:
       - run:
           name: run tests
           command: "./node_modules/.bin/cucumber-js ./features/ -f json:./report/cucumber_report.json"
+      - run:
+          name: generate html report
+          command: node index.js
+
       - store_test_results:
           path: ./report
       - store_artifacts:
