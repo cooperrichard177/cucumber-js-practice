@@ -37,11 +37,14 @@ jobs:
       - run:
           name: run tests
           command: "./node_modules/.bin/cucumber-js ./features/ -f json:./report/cucumber_report.json"
-
-      - run:
-          name: Save test results
-          command: node index.js
-          when: always
+      - store_test_results:
+          path: ./report
+      - store_artifacts:
+          path: ./report
+      # - run:
+      #     name: Save test results
+      #     command: node index.js
+      #     when: always
       # - store_test_results:
       #     path: ~/cucumber
       # - store_artifacts:
