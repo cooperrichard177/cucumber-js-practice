@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js ./features/ -f json:./report/cucumber_report.json"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,10 @@
   "dependencies": {
     "chromedriver": "^2.42.1",
     "cucumber": "^5.0.2",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "cucumber-html-reporter": "^4.0.4"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^4.0.4"
   }
 }

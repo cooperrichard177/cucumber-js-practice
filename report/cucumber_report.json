@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Benfex Navigation to Benefits",
+    "line": 1,
+    "id": "benfex-navigation-to-benefits",
+    "tags": [],
+    "uri": "features\\benefexNavigateToBenefits.feature",
+    "elements": [
+      {
+        "id": "benfex-navigation-to-benefits;i-can-navigate-from-the-benefex-home-page-to-benefits-section",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I can navigate from the benefex home page to Benefits section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Benefex home page",
+            "match": {
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the benefits link on the navigation bar",
+            "match": {
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I am taken to the Benefits section",
+            "match": {
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Google Search Functionality",
+    "line": 1,
+    "id": "google-search-functionality",
+    "tags": [],
+    "uri": "features\\googleSearch.feature",
+    "elements": [
+      {
+        "id": "google-search-functionality;can-find-search-results",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Can find search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I open google",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4849000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should be on the google home page",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
