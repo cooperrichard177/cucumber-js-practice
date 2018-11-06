@@ -21,11 +21,11 @@
             "line": 4,
             "name": "I am on the Benefex home page",
             "match": {
-              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:5"
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 14088000000
+              "duration": 10193000000
             }
           },
           {
@@ -34,11 +34,11 @@
             "line": 5,
             "name": "I click the benefits link on the navigation bar",
             "match": {
-              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:9"
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 602000000
             }
           },
           {
@@ -47,11 +47,11 @@
             "line": 6,
             "name": "I am taken to the Benefits section",
             "match": {
-              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:15"
+              "location": "features\\step_definitions\\benefexNavigateToBenefits.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 39000000
             }
           }
         ]
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4849000000
+              "duration": 2705000000
             }
           },
           {
@@ -97,7 +97,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 471000000
+              "duration": 20000000
             }
           }
         ]
