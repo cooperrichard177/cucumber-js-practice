@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10193000000
+              "duration": 8806000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 602000000
+              "duration": 603000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 79000000
             }
           }
         ]
@@ -67,10 +67,10 @@
     "uri": "features\\googleSearch.feature",
     "elements": [
       {
-        "id": "google-search-functionality;can-find-search-results",
+        "id": "google-search-functionality;google-home-page-opens-correctly",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Can find search results",
+        "name": "Google home page opens correctly",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2705000000
+              "duration": 1718000000
             }
           },
           {
@@ -97,7 +97,69 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 64000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-search-functionality;i-can-search-for-products",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "I can search for products",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the google home page",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchForResultsSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter \"Rabbits\"",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchForResultsSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click search",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchForResultsSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "a list of search results are returned",
+            "match": {
+              "location": "features\\step_definitions\\googleSearchForResultsSteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
             }
           }
         ]
