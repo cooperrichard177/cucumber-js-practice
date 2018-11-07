@@ -14,6 +14,9 @@ Given("I am on the google home page", async function() {
 
 When("I enter {string}", async function(string) {
   let page = new GoogleHomePage(this.browser, this.driver);
+  await this.browser.wait(
+    until.elementLocated(page.locators.googleSearchInput)
+  );
   let googleSearchInput = await this.browser.findElement(
     page.locators.googleSearchInput
   );
